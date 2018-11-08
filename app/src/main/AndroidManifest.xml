@@ -20,7 +20,8 @@
         <activity android:name=".Bebidas" />
         <activity android:name=".Comidas" />
         <activity android:name=".Aperitivos" />
-        <activity android:name=".Sobremesas"></activity>
+        <activity android:name=".Sobremesas" />
+        <activity android:name=".Opcoes_Cerveja"></activity>
     </application>
 
 </manifest>

@@ -10,12 +10,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class OpcoesBebidasAdapter extends ArrayAdapter<OpcoesBebidas> {
+public class OpcoesBebidasAdapter extends ArrayAdapter<Produto> {
 
     private final Context context;
-    private final ArrayList<OpcoesBebidas> elementos;
-    public OpcoesBebidasAdapter(Context context, ArrayList<OpcoesBebidas> elementos) {
-        super(context, R.layout.opcoes_bebidas, elementos);
+    private final ArrayList<Produto> elementos;
+    public OpcoesBebidasAdapter(Context context, ArrayList<Produto> elementos) {
+        super(context, R.layout.iten_produto, elementos);
         this.context = context;
         this.elementos = elementos;
     }
@@ -24,7 +24,7 @@ public class OpcoesBebidasAdapter extends ArrayAdapter<OpcoesBebidas> {
 
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View rowView = inflater.inflate(R.layout.opcoes_bebidas, parent,
+        View rowView = inflater.inflate(R.layout.iten_produto, parent,
                 false);
 
         TextView nomeOpcoesBebidas = (TextView) rowView.findViewById(R.id.nome);

@@ -1,11 +1,11 @@
 package com.morr.tiago.cardapio;
 
-public class OpcoesBebidas {
+public class Produto {
 
     private String nome;
     private int imagem; // vai armazenar o identificador do recurso
     private String preco;
-    public OpcoesBebidas(String nome, String preco, int imagem) {
+    public Produto(String nome, String preco, int imagem) {
         this.nome = nome;
         this.preco = preco;
         this.imagem = imagem;
